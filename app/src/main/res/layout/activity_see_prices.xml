@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grocery Items"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:layout_marginBottom="16dp">
+
+            <!-- Rows for Grocery Items -->
+            <TableRow>
+                <TextView android:text="Apple" />
+                <TextView android:text="$2" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Mango" />
+                <TextView android:text="$3" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Milk" />
+                <TextView android:text="$3" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Bread" />
+                <TextView android:text="$2" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Eggs" />
+                <TextView android:text="$4" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Butter" />
+                <TextView android:text="$5" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Cheese" />
+                <TextView android:text="$7" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Juice" />
+                <TextView android:text="$4" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Chicken" />
+                <TextView android:text="$12" android:gravity="end" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medical Items"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:layout_marginBottom="16dp">
+
+            <!-- Rows for Medical Items -->
+            <TableRow>
+                <TextView android:text="Medicine" />
+                <TextView android:text="$10" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Toothpaste" />
+                <TextView android:text="$4" android:gravity="end" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cosmetic Items"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <!-- Rows for Cosmetic Items -->
+            <TableRow>
+                <TextView android:text="Perfume" />
+                <TextView android:text="$50" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Soap" />
+                <TextView android:text="$5" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Shampoo" />
+                <TextView android:text="$10" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Coffee" />
+                <TextView android:text="$6" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Tea" />
+                <TextView android:text="$5" android:gravity="end" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
